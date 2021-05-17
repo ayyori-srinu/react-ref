@@ -30,7 +30,7 @@ const Home = () => {
       setSubmitted(false);
       setSelected("0-0")
     }else{
-      setSize(null);
+      setSize("");
     }
   };
   const handleMaxMoves = (value) => {
@@ -40,7 +40,7 @@ const Home = () => {
       setSubmitted(false);
       setSelected("0-0")
     }else{
-      setSize(null);
+      setMaxMoves("");
     }
    
   };
